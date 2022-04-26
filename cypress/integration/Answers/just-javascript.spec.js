@@ -32,10 +32,7 @@ describe("Cypress is just JavaScript", () => {
     // dates displayed on the homepage are formatted correctly.
     // i.e 2020-01-02 from the API is formatted and displayed as January 2, 2020 on the homepage
 
-    // Hint: We are included format and parseISO from the 'date-fns' library.
-    // You will need to use both of these methods to format the dates coming
-    // from the API into the correct format. If you get stuck, the formatting string,
-    // can be found inside of /componets/date.js
+
 
     cy.visit("http://localhost:3000");
 
